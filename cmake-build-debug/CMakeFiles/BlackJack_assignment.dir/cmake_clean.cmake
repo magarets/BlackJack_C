@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BlackJack_assignment.dir/start.c.o"
   "CMakeFiles/BlackJack_assignment.dir/choiceCard.c.o"
   "CMakeFiles/BlackJack_assignment.dir/printgame.c.o"
+  "CMakeFiles/BlackJack_assignment.dir/DealerCard.c.o"
   "BlackJack_assignment.pdb"
   "BlackJack_assignment"
 )

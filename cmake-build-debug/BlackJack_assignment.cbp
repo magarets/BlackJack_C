@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/DealerCard.c">
+			<Option target="BlackJack_assignment"/>
+		</Unit>
 		<Unit filename="/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/choiceCard.c">
 			<Option target="BlackJack_assignment"/>
 		</Unit>

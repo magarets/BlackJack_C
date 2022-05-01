@@ -33,34 +33,43 @@ void start(char *DECK){
     int isDrawOrStay;
 
     while(1) {
+        printf("\n");
         printGame(DeckCardCount, Point.Dealer, Point.Player); // 게임화면 출력
         isDrawOrStay = 0;
 
         // 플레이어 선택 //
         while (isDrawOrStay != 1 || isDrawOrStay != 2) {
-            printf("Draw(1) or Stay(2) ");
+            printf("\n[Player]Draw(1) or Stay(2) ");
             scanf("%d", &isDrawOrStay);
 
             if (isDrawOrStay == 1) {
-                Point.Player++; // 플레이어의 인덱스 포인터 1 증가
+                printf(" *add Player card ");
                 D.Player[Point.Player] = DECK[choiceCard(DeckCardCount)];
+                DeckCardCount--;
+                Point.Player++; // 플레이어의 인덱스 포인터 1 증가
+                break;
             }
             else break;
         }
 
         // 딜러 선택 //
+        // 직접 선택이 아닌, 인공지능 알고리즘 구현 //
+
+
         while (isDrawOrStay != 1 || isDrawOrStay != 2) {
-            printf("Draw(1) or Stay(2) ");
+            printf("\n[Dealer] Draw(1) or Stay(2) ");
             scanf("%d", &isDrawOrStay);
 
             if (isDrawOrStay == 1) {
+                printf(" *add Dealer card ");
+                D.Dealer[Point.Dealer] = DECK[choiceCard(DeckCardCount)];
+                DeckCardCount--;
                 Point.Dealer++; // 딜러의 인덱스 포인터 1 증가
-                D.Dealer[i] = DECK[choiceCard(DeckCardCount)];
+                break;
             }
             else break;
         }
 
-        printGame()
-
+        DealerCard(DECK, DeckCardCount, Point.Dealer, D.Player[0]); // 딜러가 카드를 선택하는 알고리즘
     }// 게임 무한루프 종료
 }

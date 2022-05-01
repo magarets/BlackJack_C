@@ -25,6 +25,7 @@ struct indexpointer {
 void start(char *DECK);
 int choiceCard(int Num);
 int printGame(int DeckCardCount, int DealerPoint, int PlayerPoint);
+int DealerCard(char *DECK, int DeckCardCount, int DealerPoint, int PlayerFirstNum);
 
 
 

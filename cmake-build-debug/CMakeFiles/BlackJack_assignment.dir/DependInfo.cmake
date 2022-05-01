@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/DealerCard.c" "/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/cmake-build-debug/CMakeFiles/BlackJack_assignment.dir/DealerCard.c.o"
   "/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/choiceCard.c" "/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/cmake-build-debug/CMakeFiles/BlackJack_assignment.dir/choiceCard.c.o"
   "/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/main.c" "/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/cmake-build-debug/CMakeFiles/BlackJack_assignment.dir/main.c.o"
   "/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/printgame.c" "/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/cmake-build-debug/CMakeFiles/BlackJack_assignment.dir/printgame.c.o"

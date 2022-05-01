@@ -123,6 +123,33 @@ BlackJack_assignment/fast:
 	$(MAKE) -f CMakeFiles/BlackJack_assignment.dir/build.make CMakeFiles/BlackJack_assignment.dir/build
 .PHONY : BlackJack_assignment/fast
 
+DealerCard.o: DealerCard.c.o
+
+.PHONY : DealerCard.o
+
+# target to build an object file
+DealerCard.c.o:
+	$(MAKE) -f CMakeFiles/BlackJack_assignment.dir/build.make CMakeFiles/BlackJack_assignment.dir/DealerCard.c.o
+.PHONY : DealerCard.c.o
+
+DealerCard.i: DealerCard.c.i
+
+.PHONY : DealerCard.i
+
+# target to preprocess a source file
+DealerCard.c.i:
+	$(MAKE) -f CMakeFiles/BlackJack_assignment.dir/build.make CMakeFiles/BlackJack_assignment.dir/DealerCard.c.i
+.PHONY : DealerCard.c.i
+
+DealerCard.s: DealerCard.c.s
+
+.PHONY : DealerCard.s
+
+# target to generate assembly for a file
+DealerCard.c.s:
+	$(MAKE) -f CMakeFiles/BlackJack_assignment.dir/build.make CMakeFiles/BlackJack_assignment.dir/DealerCard.c.s
+.PHONY : DealerCard.c.s
+
 choiceCard.o: choiceCard.c.o
 
 .PHONY : choiceCard.o
@@ -240,6 +267,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BlackJack_assignment"
+	@echo "... DealerCard.o"
+	@echo "... DealerCard.i"
+	@echo "... DealerCard.s"
 	@echo "... choiceCard.o"
 	@echo "... choiceCard.i"
 	@echo "... choiceCard.s"

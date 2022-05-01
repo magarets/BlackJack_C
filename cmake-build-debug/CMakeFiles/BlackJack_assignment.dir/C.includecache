@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/DealerCard.c
+start.h
+/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/start.h
+
+/Users/itsjustyuwon/Desktop/Desktop/git/BlackJack_assignment/start.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+ctype.h
+-
+
