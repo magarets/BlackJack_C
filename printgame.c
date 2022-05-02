@@ -8,10 +8,9 @@ int printGame(int DeckCardCount, int DealerPoint, int PlayerPoint){
 
     // 딜러 출력 //
     printf("Dealer : ");
-//    printf("%c ", D.Dealer[0]);
-    for(i=0; i<DealerPoint; ++i)
- //       printf("? ");
-        printf("%c ", D.Dealer[i]);
+    printf("%c ", D.Dealer[0]);
+    for(i=1; i<DealerPoint; ++i)
+       printf("? ");
     printf("\n");
     // ... //
 
