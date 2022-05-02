@@ -11,7 +11,7 @@
 
 struct DECK {
 
-    int Check[53]; // 해당카드가 사용됬는지 확인하기위한 배
+    int Check[52]; // 해당카드가 사용됬는지 확인하기위한 배
     char Dealer[20]; // 딜러의 카드리스트
     char Player[20]; // 플레이어의 카드리스트
 
@@ -23,9 +23,10 @@ struct indexpointer {
 }Point;
 
 void start(char *DECK);
-int choiceCard(int Num);
+int choiceCard();
 int printGame(int DeckCardCount, int DealerPoint, int PlayerPoint);
 int DealerCard(char *DECK, int DeckCardCount, int DealerPoint, int PlayerFirstNum);
+double SumCard(char *sortDeck, int count);
 
 
 

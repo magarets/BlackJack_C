@@ -4,13 +4,13 @@
 int printGame(int DeckCardCount, int DealerPoint, int PlayerPoint){
     int i;
 
-    printf("----print----\n");
+    printf("==================\n");
 
     // 딜러 출력 //
     printf("Dealer : ");
-    printf("%c ", D.Dealer[0]);
-    for(i=1; i<DealerPoint; ++i)
-//        printf("? ");
+//    printf("%c ", D.Dealer[0]);
+    for(i=0; i<DealerPoint; ++i)
+ //       printf("? ");
         printf("%c ", D.Dealer[i]);
     printf("\n");
     // ... //
@@ -19,5 +19,7 @@ int printGame(int DeckCardCount, int DealerPoint, int PlayerPoint){
     printf("Player : ");
     for(i=0; i<PlayerPoint; ++i)
         printf("%c ", D.Player[i]);
+
+    printf("\n==================\n");
     // ... //
 }
