@@ -19,4 +19,4 @@
   </code>
 
 *** ***
-Lisence : MIT lisence 로 정의합니다.
+<b>Lisence : MIT</b>
