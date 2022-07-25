@@ -15,7 +15,8 @@
 
 <code>
   git clone URL &
-  ./main.c
+  gcc -o main main.c &
+  ./main
   </code>
 
 *** ***
