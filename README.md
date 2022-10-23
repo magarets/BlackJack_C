@@ -14,8 +14,8 @@
 2. 덱의 카드 평균을 뽑았다고 가정했을 시에, 딜러의 카드의 합이 21을 넘지않는 경우 카드를 드로우 합니다.
 
 <code>
-  git clone URL &
-  gcc -o main main.c &
+  git clone URL &&
+  gcc -o main main.c &&
   ./main
   </code>
 
